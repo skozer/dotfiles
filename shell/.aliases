@@ -1,0 +1,8 @@
+# Display directory contents
+alias ll="ls -lh"
+
+# Show local IP
+alias localip="ipconfig getifaddr en0"
+
+# Copy Public SSH Key to clipboard:
+alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to clipboard.'"

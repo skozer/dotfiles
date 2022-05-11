@@ -1,0 +1,4 @@
+# Adds yarn binaries to the path
+PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+export PATH
