@@ -10,8 +10,11 @@
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.largeFileOptimizations": false,
-  "editor.suggest.preview": true,
+  "editor.minimap.enabled": false,
   "editor.rulers": [80, 120],
+  "editor.suggest.preview": true,
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 0,
 
   // Theme:
   "workbench.colorTheme": "Horizon Bold",
@@ -38,14 +41,14 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   // Formatting:
-  "prettier.arrowParens": "always",
-  "prettier.bracketSpacing": true,
-  "prettier.endOfLine": "auto",
   "prettier.printWidth": 120,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "es5",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "always",
+  "prettier.endOfLine": "auto",
 
   "github.copilot.enable": {
     "*": true,
