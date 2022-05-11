@@ -1,0 +1,56 @@
+{
+  // Editor:
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.suggest.preview": true,
+  "editor.rulers": [80, 120],
+
+  // Theme:
+  "workbench.colorTheme": "Horizon Bold",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Version control
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.closeDiffOnOperation": true,
+  "git.suggestSmartCommit": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "html.autoClosingTags": false,
+
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Formatting:
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "auto",
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  }
+}
